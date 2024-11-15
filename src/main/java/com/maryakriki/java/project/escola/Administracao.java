@@ -1,4 +1,4 @@
-package com.maryakriki.java.project.faculdade;
+package com.maryakriki.java.project.escola;
 
 public class Administracao {
     /*

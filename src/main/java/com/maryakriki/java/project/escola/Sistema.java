@@ -1,4 +1,4 @@
-package com.maryakriki.java.project.faculdade;
+package com.maryakriki.java.project.escola;
 
 public class Sistema {
   /*
@@ -8,4 +8,8 @@ public class Sistema {
     Formação: com as suas notas você é aprovado
     e recebe seu diploma
    */
+//    3
+//    Faxineira
+//    Professor
+//    Aluno
 }
