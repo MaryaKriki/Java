@@ -8,10 +8,11 @@ public class ObjetoVsPrimitivo {
         String s = new String("texto");
         //String = classe, "texto" = valor/objeto
 
-        s.toUpperCase();
         // as classes (ex. String) tem métodos dentro dele, ex. toUpperCase
+        s.toUpperCase();
 
+        // os Wrappers são uma versão de objeto para os tipos primitivos
         int a = 123;
-        // tipos primitivos não têm classes, então os seus "objetos" são na verdade Wrappers
+        System.out.println(a);
     }
 }
