@@ -13,6 +13,7 @@ public class ObjetoVsPrimitivo {
 
         // os Wrappers são uma versão de objeto para os tipos primitivos
         int a = 123;
+        Integer b = 321;
         System.out.println(a);
     }
 }
