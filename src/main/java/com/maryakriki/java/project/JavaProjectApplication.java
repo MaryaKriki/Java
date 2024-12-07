@@ -1,23 +1,27 @@
 package com.maryakriki.java.project;
 
 import com.maryakriki.java.project.escola.Aluno;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.maryakriki.java.project.fundamentos.CanetaPOO;
 
-@SpringBootApplication
 public class JavaProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaProjectApplication.class, args);
-		Aluno aluno = new Aluno();
-		aluno.setNome("Júlia");
-		aluno.setSerie(10);
-		System.out.println(aluno);
+		CanetaPOO c1 = new CanetaPOO();
+		c1.cor = "azul";
+		c1.ponta = 0.5f;
+		c1.carga = 75;
+		c1.tampar();
+        c1.status();
+		c1.rabiscar();
 
-		Aluno aluno2 = new Aluno();
-		aluno2.setNome("Júlia");
-		aluno2.setSobrenome("Gaio");
-		aluno2.setSerie(10);
-		System.out.println(aluno2);
+		CanetaPOO c2 = new CanetaPOO();
+		c2.modelo = "transparente";
+		c2.cor = "preta";
+		c2.ponta = 0.7f;
+		c2.carga = 33;
+		c2.destampar();
+		c2.status();
+		c2.rabiscar();
+
 	}
 }
