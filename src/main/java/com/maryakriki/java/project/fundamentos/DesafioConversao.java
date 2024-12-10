@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class DesafioConversao {
     public static void main(String[] args) {
 
+        //Desafio Extra: Na hora de digitar o  valor numerico no console,
+        // eu tenho que conseguir usar tanto a vírgula quanto o ponto
+        //Resposta: Como o número foi convertido em String podemos usar os
+        // métodos da classe String, .replace(",",".");
+
         Scanner salario = new Scanner(System.in);
 
         System.out.println("Digite seu salario do primeiro mês: ");
