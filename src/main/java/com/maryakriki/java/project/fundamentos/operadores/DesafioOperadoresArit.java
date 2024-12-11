@@ -1,4 +1,4 @@
-package com.maryakriki.java.project.fundamentos;
+package com.maryakriki.java.project.fundamentos.operadores;
 
 public class DesafioOperadoresArit {
     public static void main(String[] args) {
