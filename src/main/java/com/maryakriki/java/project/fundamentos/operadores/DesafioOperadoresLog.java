@@ -13,10 +13,10 @@ public class DesafioOperadoresLog {
         boolean sorvete = trabalho1 && trabalho2;
         boolean nada = !trabalho1 && !trabalho2;
 
-        System.out.println("Vamos comprar a TV ? " + tv50 + ", e tomar sorteve? " + sorvete);
+        System.out.println("Vamos comprar a TV ? " + tv50 + " E tomar sorteve? " + sorvete);
         System.out.println("Vamos comprar uma TV de 50 polegadas e tomar sorteve!!");
 
-        System.out.println("\nVamos comprar a TV ? " + tv32 + ", e tomar sorteve? " + sorvete);
+        System.out.println("\nVamos comprar a TV ? " + tv32 + " E tomar sorteve? " + sorvete);
         System.out.println("Vamos comprar uma TV de 35 polegadas e tomar sorteve!!");
 
         System.out.println("\nVamos comprar a TV e tomar sorteve? " + nada);
