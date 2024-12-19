@@ -1,6 +1,5 @@
 package com.maryakriki.java.project.fundamentos.operadores;
 
-
 public class OperadoresTernarios {
     public static void main(String[] args) {
 
