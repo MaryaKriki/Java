@@ -8,15 +8,17 @@ public class ParOuImpar {
 
         System.out.println("Escreva um número: ");
         int numero = entrada.nextInt();
+        System.out.println("Escreva outro número: ");
+        int numero2 = entrada.nextInt();
 
-        numero %= 2;
+        int modulo = numero % numero2;
 
 
-        if (numero == 0) {
-            System.out.println("O número é par");
+        if (modulo % 2 == 0) {
+            System.out.println("O modulo é par");
         }
         else {
-            System.out.println("O número é ímpar");
+            System.out.println("O modulo é ímpar");
         }
 
         entrada.close();

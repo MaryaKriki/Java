@@ -4,8 +4,7 @@ public class NotacaoPonto {
     public static void main(String[] args) {
         /*
          O ponto (.) é usado para chamar algum metodo ou atributo
-         Exemplo: System.out.println(); o primeiro ponto chama o metodo de saída do programa "out"
-          e o segundo ponto chama o metodo de imprimir linha "println"
+         Exemplo: String.equals(); String é uma classe e .equals() é um metodo.
          */
 
         String b = "Bom Dia X";
