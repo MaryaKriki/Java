@@ -2,7 +2,7 @@ package com.maryakriki.java.project.fundamentos;
 
 import java.util.Scanner;
 
-public class FahrenheitVsCelsius {
+public class FahrenheitVsCelsius_1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         // (°F - 32) * 5/9 = °C

@@ -2,13 +2,14 @@ package com.maryakriki.java.project.fundamentos;
 
 import java.util.Scanner;
 
-public class CalculoIMC {
+public class CalculoIMC_3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         // peso / (altura * altura)
 
         System.out.println("Escreva sua altura: ");
         double altura = entrada.nextDouble();
+
         System.out.println("Escreva seu peso: ");
         double peso = entrada.nextDouble();
 

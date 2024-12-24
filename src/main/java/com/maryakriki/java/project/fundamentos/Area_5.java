@@ -2,7 +2,7 @@ package com.maryakriki.java.project.fundamentos;
 
 import java.util.Scanner;
 
-public class Area {
+public class Area_5 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         //largura * altura * altura = ?³
