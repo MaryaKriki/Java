@@ -1,4 +1,4 @@
-package com.maryakriki.java.project.escola;
+package com.maryakriki.java.project.fundamentos.escola;
 
 public class Professor {
     public static void main(String[] args) {

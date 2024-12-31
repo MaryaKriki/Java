@@ -1,4 +1,4 @@
-package com.maryakriki.java.project.escola;
+package com.maryakriki.java.project.fundamentos.escola;
 
 public class Aluno extends Pessoas{
     int serie;
