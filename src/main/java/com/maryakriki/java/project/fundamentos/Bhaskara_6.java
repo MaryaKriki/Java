@@ -14,7 +14,7 @@ public class Bhaskara_6 {
 
         System.out.println(e);
         System.out.println("O delta é: " + delta);
-        System.out.println(" x = " + bhaskara);
+        System.out.println("x = " + bhaskara);
 
 
     }
