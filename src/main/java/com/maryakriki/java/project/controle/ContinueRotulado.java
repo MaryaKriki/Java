@@ -8,7 +8,7 @@ public class ContinueRotulado {
                 if(i == 1){
                     continue externo;
                 }
-                System.out.printf(" [%d %d] ", i ,j);
+                System.out.printf("  [%d %d] ", i ,j);
             }
             System.out.println();
         }
