@@ -9,7 +9,7 @@ public class JogoAdivinhacao_6 {
         Random random = new Random();
 
         int num = random.nextInt(100);
-        
+
         System.out.println("Adivinhe um número de 0 a 100: ");
         int tentativa = entrada.nextInt();
 
@@ -22,6 +22,9 @@ public class JogoAdivinhacao_6 {
                     System.out.println("Você errou!! Tem mais " + contador + " tentativas.");
                     System.out.println("DICA: O número gerado é menor que o digitado.");
                     tentativa = entrada.nextInt();
+                }
+                if (contador == 1){
+                    System.out.println("Acabou suas tentativas o número era " + num);
                 }
 
         }
