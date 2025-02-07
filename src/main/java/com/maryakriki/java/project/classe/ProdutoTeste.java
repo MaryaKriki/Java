@@ -6,13 +6,12 @@ public class ProdutoTeste {
         //p1.nome = "Vestido Rosa";
         p1.cor = "Rosa";
         p1.preco = 45.90;
-        p1.desconto = 0.25;
 
         var p2 = new Produto("Sapato", 27.90);
         //p2.nome = "Sapato Branco";
         p2.cor = "Branco";
         p2.preco = 23.99;
-        p2.desconto = 0.10;
+        Produto.desconto = 0.60;
 
         System.out.println(p1.nome);
         System.out.println(p2.nome);
