@@ -11,7 +11,7 @@ public class Data {
         ano = 1970;
 
     }
-
+    
     public Data(int dia, String mes, int ano) {
         this.dia = dia;
         this.mes = mes;

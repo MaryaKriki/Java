@@ -22,11 +22,12 @@ public class JogoAdivinhacao_6 {
                     System.out.println("Você errou!! Tem mais " + contador + " tentativas.");
                     System.out.println("DICA: O número gerado é menor que o digitado.");
                     tentativa = entrada.nextInt();
-                    if (contador == 2){
-                        System.out.println("Acabou suas tentativas o número era " + num);
-                    } else if (tentativa == num) {
-                            System.out.println("Parabéns você adivinhou!!!");
+                    if (tentativa == num){
+                        System.out.println("Parabéns você adivinhou!!!");
+                        if (contador == 1) {
+                            System.out.println("Suas tentativas acabaram, o número era " + num);
                         }
+                    }
                 }
         }
 
